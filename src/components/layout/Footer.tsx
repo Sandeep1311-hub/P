@@ -1,8 +1,17 @@
 
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 export function Footer() {
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="py-12 border-t bg-card/30">
       <div className="container mx-auto px-4">
@@ -12,7 +21,7 @@ export function Footer() {
               NOIR<span className="text-primary">FOLIO</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Noirfolio. All rights reserved.
+              © {year ?? "..."} Noirfolio. All rights reserved.
             </p>
           </div>
 
