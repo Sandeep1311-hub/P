@@ -13,8 +13,8 @@ export function About() {
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-2xl md:text-3xl lg:text-4xl max-w-4xl mx-auto font-light">
                 Software Trainee at ACE, Hosur, specializing in Node.js, Azure, and TypeScript. 
-                Previously a Developer Intern at Processdrive.co where I built a food delivery application and implemented a fully responsive UI/UX. 
-                Experienced in building Python 3D visual ready projects and scalable backend solutions.
+                Experienced in building internal React Native/web apps and CI/CD pipelines. 
+                Previously a Developer Intern at Processdrive.co where I built a fully responsive food delivery application.
               </p>
             </div>
           </div>
