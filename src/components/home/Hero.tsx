@@ -24,16 +24,16 @@ export function Hero() {
           </div>
           
           <h2 className="text-muted-foreground font-mono text-base tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
-            Software Trainee @ ACE, Hosur
+            Full‑Stack Developer
           </h2>
           
-          <h1 className="text-5xl md:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
-            Building scalable <br />
-            <span className="text-gradient">software solutions.</span>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
+            Building fast, delightful <br />
+            <span className="text-gradient">web, mobile & 3D experiences.</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
-            I'm a Software Trainee & Developer at ACE, Hosur, specializing in backend systems and cloud integrations. Experienced in building Python 3D visual ready projects.
+            2+ years crafting production apps with React, React Native, Three.js, Node.js and Azure. I ship clean, scalable, and maintainable products end‑to‑end.
           </p>
           
           <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">
