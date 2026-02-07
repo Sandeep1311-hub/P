@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -17,16 +16,16 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
-            <Link href="/" className="text-xl font-bold tracking-tighter text-foreground mb-4 block">
-              NOIR<span className="text-primary">FOLIO</span>
+            <Link href="/" className="text-xl font-bold tracking-tighter text-foreground mb-4 block uppercase">
+              Sandeep <span className="text-primary">R</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              © {year ?? "..."} Noirfolio. All rights reserved.
+              © {year ?? "..."} Sandeep R. All rights reserved.
             </p>
           </div>
 
           <div className="flex items-center gap-6">
-            <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="https://github.com/Sandeep1311-hub" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="h-5 w-5" />
             </Link>
             <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">

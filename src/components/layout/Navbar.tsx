@@ -33,8 +33,8 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold tracking-tighter text-foreground">
-            NOIR<span className="text-primary">FOLIO</span>
+          <Link href="/" className="text-2xl font-bold tracking-tighter text-foreground uppercase">
+            Sandeep <span className="text-primary">R</span>
           </Link>
 
           {/* Desktop Menu */}

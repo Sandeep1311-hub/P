@@ -1,9 +1,8 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Noirfolio | Designer & Developer',
+  title: 'Sandeep R | Designer & Developer',
   description: 'Personal portfolio of a modern full-stack developer and UI/UX designer.',
 };
 
