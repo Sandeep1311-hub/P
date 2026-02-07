@@ -10,7 +10,7 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-10 lg:gap-16">
           <div className="w-full md:w-5/12 lg:w-4/12 flex justify-center">
-            <div className="relative aspect-square w-full max-w-[280px] rounded-2xl overflow-hidden shadow-2xl border border-primary/10">
+            <div className="relative aspect-square w-full max-w-[240px] rounded-2xl overflow-hidden shadow-2xl border border-primary/10 grayscale hover:grayscale-0 transition-all duration-500">
               <Image
                 src={profileImage?.imageUrl || ""}
                 alt="Professional headshot"
@@ -23,9 +23,9 @@ export function About() {
           </div>
           
           <div className="w-full md:w-7/12 lg:w-8/12 space-y-4">
-            <h2 className="text-xs font-bold tracking-[0.2em] uppercase text-primary font-mono">About Me</h2>
+            <h2 className="text-[8px] font-bold tracking-[0.2em] uppercase text-primary font-mono">About Me</h2>
             <div className="space-y-4">
-              <p className="text-muted-foreground leading-relaxed text-xs md:text-sm max-w-2xl">
+              <p className="text-muted-foreground leading-relaxed text-[10px] max-w-xl">
                 Full-stack developer skilled in React.js, Node.js/Express, and MongoDB, 
                 building real-world apps like a MERN job finder, real-time chat, and 
                 e-commerce APIs. Experienced in end-to-end development from frontend UI to backend 

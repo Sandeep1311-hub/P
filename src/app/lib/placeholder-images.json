@@ -3,8 +3,8 @@
   "placeholderImages": [
     {
       "id": "profile-photo",
-      "description": "Professional headshot of a developer",
-      "imageUrl": "https://picsum.photos/seed/67/600/600",
+      "description": "Professional headshot of a developer in a suit",
+      "imageUrl": "https://picsum.photos/seed/professional-man/600/600",
       "imageHint": "professional headshot"
     },
     {
