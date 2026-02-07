@@ -23,15 +23,12 @@ export function About() {
           </div>
           
           <div className="w-full md:w-7/12 lg:w-8/12 space-y-6">
-            <h2 className="text-2xl md:text-3xl font-bold tracking-tight">About Me</h2>
+            <h2 className="text-xl md:text-2xl font-bold tracking-tight">About Me</h2>
             <div className="space-y-4">
-              <p className="text-muted-foreground leading-relaxed text-lg">
+              <p className="text-muted-foreground leading-relaxed text-base md:text-lg">
                 Full-stack developer skilled in React.js, Node.js/Express, and MongoDB, 
                 building real-world apps like a MERN job finder, real-time chat, and 
-                e-commerce APIs.
-              </p>
-              <p className="text-muted-foreground leading-relaxed text-lg">
-                Experienced in end-to-end development from frontend UI to backend 
+                e-commerce APIs. Experienced in end-to-end development from frontend UI to backend 
                 architecture and deployment. Focused on scalable, clean, and 
                 user-centric solutions.
               </p>
