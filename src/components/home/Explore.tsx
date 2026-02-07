@@ -53,6 +53,14 @@ export function Explore() {
       github: "https://github.com/Sandeep1311-hub/ai-research-agent",
     },
     {
+      id: "project-netlify",
+      title: "Modern Web Application",
+      description: "A high-performance interactive web application deployed on Netlify, focusing on seamless user experience and modern UI patterns.",
+      tags: ["React", "Netlify", "UI/UX", "Vite"],
+      link: "https://inquisitive-lollipop-d5ae22.netlify.app/",
+      github: "#",
+    },
+    {
       id: "project-1",
       title: "E-Commerce Titan",
       description: "A full-featured shopping platform with real-time inventory and Stripe integration.",
@@ -65,14 +73,6 @@ export function Explore() {
       title: "Analytics Suite",
       description: "Enterprise-grade dashboard for monitoring user engagement and sales metrics.",
       tags: ["React", "D3.js", "Node.js"],
-      link: "#",
-      github: "#",
-    },
-    {
-      id: "project-3",
-      title: "Mobile Task Manager",
-      description: "A productivity app focusing on intuitive UX and offline functionality.",
-      tags: ["React Native", "Firebase"],
       link: "#",
       github: "#",
     },
@@ -141,9 +141,11 @@ export function Explore() {
                         <Link href={project.link} target="_blank" className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
                           <ExternalLink size={24} />
                         </Link>
-                        <Link href={project.github} target="_blank" className="p-4 bg-background text-foreground rounded-full hover:scale-110 transition-transform shadow-xl border">
-                          <Github size={24} />
-                        </Link>
+                        {project.github !== "#" && (
+                          <Link href={project.github} target="_blank" className="p-4 bg-background text-foreground rounded-full hover:scale-110 transition-transform shadow-xl border">
+                            <Github size={24} />
+                          </Link>
+                        )}
                       </div>
                     </div>
                     <div className="p-8">
