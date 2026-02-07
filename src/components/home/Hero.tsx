@@ -14,7 +14,7 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-4xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs uppercase tracking-wider font-semibold mb-8 animate-fade-in-up">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
@@ -23,37 +23,37 @@ export function Hero() {
             Available for freelance work
           </div>
           
-          <h2 className="text-muted-foreground font-mono text-xs tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
+          <h2 className="text-muted-foreground font-mono text-sm tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
             Full-Stack Developer
           </h2>
           
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6 animate-fade-in-up [animation-delay:200ms] tracking-tight">
+          <h1 className="text-5xl md:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
             Designing digital <br />
             <span className="text-gradient">experiences that matter.</span>
           </h1>
           
-          <p className="text-base md:text-lg text-muted-foreground mb-10 max-w-lg animate-fade-in-up [animation-delay:400ms] leading-relaxed">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
             I'm a Full Stack Developer & Designer crafting high-performance, beautiful web applications with modern technologies. 4+ years crafting production apps with React, React Native, Three.js, Node.js and AWS. I ship clean, scalable, and maintainable products end‑to‑end.
           </p>
           
-          <div className="flex flex-wrap gap-4 animate-fade-in-up [animation-delay:600ms]">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-12 px-8 text-sm rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
-              Explore Work <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-16 px-10 text-lg rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
+              Explore Work <ArrowRight className="ml-2 h-6 w-6 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="h-12 px-8 text-sm rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
+            <Button size="lg" variant="outline" className="h-16 px-10 text-lg rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
               Contact Me
             </Button>
           </div>
 
-          <div className="mt-12 flex items-center gap-6 animate-fade-in-up [animation-delay:800ms]">
+          <div className="mt-16 flex items-center gap-8 animate-fade-in-up [animation-delay:800ms]">
             <Link href="https://github.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Github className="h-6 w-6" />
+              <Github className="h-8 w-8" />
             </Link>
             <Link href="https://linkedin.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Linkedin className="h-6 w-6" />
+              <Linkedin className="h-8 w-8" />
             </Link>
             <Link href="https://twitter.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Twitter className="h-6 w-6" />
+              <Twitter className="h-8 w-8" />
             </Link>
           </div>
         </div>
