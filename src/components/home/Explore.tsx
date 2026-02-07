@@ -45,6 +45,14 @@ export function Explore() {
 
   const projects = [
     {
+      id: "ai-research-agent",
+      title: "AI Research Agent",
+      description: "An advanced automated research assistant utilizing LLMs to aggregate, analyze, and synthesize complex information from various sources.",
+      tags: ["GenAI", "TypeScript", "Node.js", "AI Agent"],
+      link: "https://github.com/Sandeep1311-hub/ai-research-agent",
+      github: "https://github.com/Sandeep1311-hub/ai-research-agent",
+    },
+    {
       id: "project-1",
       title: "E-Commerce Titan",
       description: "A full-featured shopping platform with real-time inventory and Stripe integration.",
@@ -65,14 +73,6 @@ export function Explore() {
       title: "Mobile Task Manager",
       description: "A productivity app focusing on intuitive UX and offline functionality.",
       tags: ["React Native", "Firebase"],
-      link: "#",
-      github: "#",
-    },
-    {
-      id: "project-4",
-      title: "Creative Agency Hub",
-      description: "A portfolio site for a design agency featuring smooth GSAP animations.",
-      tags: ["GSAP", "Tailwind", "Three.js"],
       link: "#",
       github: "#",
     },
@@ -138,10 +138,10 @@ export function Explore() {
                         data-ai-hint={imageData?.imageHint}
                       />
                       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-6">
-                        <Link href={project.link} className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
+                        <Link href={project.link} target="_blank" className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
                           <ExternalLink size={24} />
                         </Link>
-                        <Link href={project.github} className="p-4 bg-background text-foreground rounded-full hover:scale-110 transition-transform shadow-xl border">
+                        <Link href={project.github} target="_blank" className="p-4 bg-background text-foreground rounded-full hover:scale-110 transition-transform shadow-xl border">
                           <Github size={24} />
                         </Link>
                       </div>
