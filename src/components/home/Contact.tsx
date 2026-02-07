@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -53,7 +54,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Phone</h4>
-                  <p className="text-muted-foreground">+91 0000000000</p>
+                  <p className="text-muted-foreground">+91 8189976572</p>
                 </div>
               </div>
 
@@ -63,7 +64,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Location</h4>
-                  <p className="text-muted-foreground">Hosur, Tamil Nadu, India</p>
+                  <p className="text-muted-foreground">44/4 chowdappa layout, bangalore, India</p>
                 </div>
               </div>
             </div>
