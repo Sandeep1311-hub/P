@@ -23,17 +23,17 @@ export function Hero() {
             Available for new opportunities
           </div>
           
-          <h2 className="text-muted-foreground font-mono text-sm tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
-            Software Trainee
+          <h2 className="text-muted-foreground font-mono text-base tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
+            Software Trainee @ ACE, Hosur
           </h2>
           
-          <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
+          <h1 className="text-5xl md:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
             Building scalable <br />
             <span className="text-gradient">software solutions.</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
-            I'm a Software Trainee & Developer at ACE, Hosur, specializing in backend systems and cloud integrations. I build efficient web applications using Node.js, Azure, and TypeScript.
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
+            I'm a Software Trainee & Developer at ACE, Hosur, specializing in backend systems and cloud integrations. Experienced in building Python 3D visual ready projects.
           </p>
           
           <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">

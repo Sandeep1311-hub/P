@@ -7,16 +7,14 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="space-y-8">
-            <h2 className="text-sm font-bold tracking-[0.2em] uppercase text-primary font-mono">
+            <h2 className="text-base font-bold tracking-[0.2em] uppercase text-primary font-mono">
               About Me
             </h2>
             <div className="space-y-6">
-              <p className="text-muted-foreground leading-relaxed text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto font-light">
-                Full-stack developer skilled in React.js, Node.js/Express, and MongoDB, 
-                building real-world apps like a MERN job finder, real-time chat, and 
-                e-commerce APIs. Experienced in end-to-end development from frontend UI to backend 
-                architecture and deployment. Focused on scalable, clean, and 
-                user-centric solutions.
+              <p className="text-muted-foreground leading-relaxed text-2xl md:text-3xl lg:text-4xl max-w-4xl mx-auto font-light">
+                Software Trainee at ACE, Hosur, specializing in Node.js, Azure, and TypeScript. 
+                Previously a Developer at Processdrive.co where I built Python 3D visual ready projects. 
+                Focused on end-to-end development, scalable architectures, and efficient, clean code solutions.
               </p>
             </div>
           </div>

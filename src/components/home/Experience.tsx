@@ -10,22 +10,22 @@ export function Experience() {
       company: "ACE, Hosur",
       role: "Software Trainee",
       period: "2024 - Present",
-      description: "Gaining hands-on experience in backend development and cloud architecture. Focused on building scalable services using Node.js and integrating cloud solutions with Azure.",
+      description: "Focusing on backend development and cloud architecture. Building scalable services using Node.js and integrating cloud solutions with Azure and TypeScript.",
       skills: ["Node.js", "Azure", "TypeScript"]
     },
     {
-      company: "Creative Digital Agency",
-      role: "Frontend Developer",
-      period: "2019 - 2021",
-      description: "Built responsive and interactive web applications for various enterprise clients. Specialized in complex GSAP animations and Three.js integrations.",
-      skills: ["React", "GSAP", "Tailwind"]
+      company: "Processdrive.co",
+      role: "Developer",
+      period: "2022 - 2024",
+      description: "Spearheaded the development of Python-based 3D visual ready projects. Focused on high-performance data processing and visualization pipelines.",
+      skills: ["Python", "3D Visualization", "Data Pipelines"]
     },
     {
       company: "Startup Hub",
       role: "Full-Stack Developer Intern",
-      period: "2018 - 2019",
-      description: "Assisted in building a real-time chat application and a job-matching platform using Node.js and Socket.io.",
-      skills: ["Node.js", "Socket.io", "MongoDB"]
+      period: "2021 - 2022",
+      description: "Assisted in building real-time applications and job-matching platforms. Gained foundational experience in MERN stack development.",
+      skills: ["React", "Node.js", "MongoDB"]
     }
   ];
 
@@ -34,7 +34,7 @@ export function Experience() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-sm font-bold tracking-[0.2em] uppercase text-primary font-mono mb-4">
+            <h2 className="text-base font-bold tracking-[0.2em] uppercase text-primary font-mono mb-4">
               Career Journey
             </h2>
             <h3 className="text-3xl md:text-5xl font-bold mb-6">Experience Highlights</h3>
@@ -60,13 +60,13 @@ export function Experience() {
                   </div>
                 </div>
                 
-                <p className="text-muted-foreground text-base md:text-lg mb-6 leading-relaxed max-w-3xl">
+                <p className="text-muted-foreground text-lg md:text-xl mb-6 leading-relaxed max-w-3xl">
                   {exp.description}
                 </p>
                 
                 <div className="flex flex-wrap gap-2">
                   {exp.skills.map((skill) => (
-                    <Badge key={skill} variant="outline" className="text-xs md:text-sm font-medium border-primary/20 bg-primary/5">
+                    <Badge key={skill} variant="outline" className="text-sm md:text-base font-medium border-primary/20 bg-primary/5">
                       {skill}
                     </Badge>
                   ))}
