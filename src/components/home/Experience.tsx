@@ -25,7 +25,7 @@ export function Experience() {
       role: "Developer Intern",
       period: "2024 - 2024",
       description: "Built a comprehensive food delivery application and ensured the UI/UX was fully responsive for a seamless user experience across all devices.",
-      skills: ["Python", "3D Visualization", "Responsive Design"]
+      skills: ["JavaScript", "React", "Tailwind CSS", "Responsive Design"]
     }
   ];
 
