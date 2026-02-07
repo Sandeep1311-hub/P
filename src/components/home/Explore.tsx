@@ -61,18 +61,18 @@ export function Explore() {
       github: "#",
     },
     {
+      id: "job-finder-app",
+      title: "Job Finder Application",
+      description: "A comprehensive platform designed to streamline the job search process with real-time listings, advanced filtering, and a seamless mobile-responsive interface.",
+      tags: ["React", "Firebase", "Node.js", "API"],
+      link: "#",
+      github: "https://github.com/Sandeep1311-hub/Job-Finder-Application",
+    },
+    {
       id: "project-1",
       title: "E-Commerce Titan",
       description: "A full-featured shopping platform with real-time inventory and Stripe integration.",
       tags: ["Next.js", "Stripe", "Prisma"],
-      link: "#",
-      github: "#",
-    },
-    {
-      id: "project-2",
-      title: "Analytics Suite",
-      description: "Enterprise-grade dashboard for monitoring user engagement and sales metrics.",
-      tags: ["React", "D3.js", "Node.js"],
       link: "#",
       github: "#",
     },
@@ -138,9 +138,11 @@ export function Explore() {
                         data-ai-hint={imageData?.imageHint}
                       />
                       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-6">
-                        <Link href={project.link} target="_blank" className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
-                          <ExternalLink size={24} />
-                        </Link>
+                        {project.link !== "#" && (
+                          <Link href={project.link} target="_blank" className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
+                            <ExternalLink size={24} />
+                          </Link>
+                        )}
                         {project.github !== "#" && (
                           <Link href={project.github} target="_blank" className="p-4 bg-background text-foreground rounded-full hover:scale-110 transition-transform shadow-xl border">
                             <Github size={24} />
