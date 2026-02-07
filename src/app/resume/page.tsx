@@ -1,15 +1,17 @@
 
+'use client';
+
 import React from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Printer } from 'lucide-react';
 
-export const metadata: Metadata = {
-  title: 'Resume | Sandeep R',
-  description: 'Professional resume of Sandeep R, Full-Stack Developer',
-};
-
 export default function ResumePage() {
+  const handlePrint = () => {
+    if (typeof window !== 'undefined') {
+      window.print();
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6">
       {/* Navigation for web view */}
@@ -21,7 +23,7 @@ export default function ResumePage() {
           <ArrowLeft size={20} /> Back to Portfolio
         </Link>
         <button 
-          onClick={() => window.print()}
+          onClick={handlePrint}
           className="flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:opacity-90 transition-opacity font-bold"
         >
           <Printer size={20} /> Print / Save PDF
@@ -29,7 +31,7 @@ export default function ResumePage() {
       </div>
 
       {/* Resume Document */}
-      <div className="max-w-[8.5in] mx-auto bg-white shadow-2xl p-[0.75in] md:p-[1in] text-black font-serif leading-snug print:shadow-none print:p-0">
+      <div className="max-w-[8.5in] mx-auto bg-white shadow-2xl p-[0.75in] md:p-[1in] text-black font-serif leading-snug print:shadow-none print:p-0 transition-all duration-300">
         <header className="text-center mb-10">
           <h1 className="text-4xl font-bold mb-1">Sandeep R</h1>
           <p className="text-xl font-bold mb-3">Full-Stack Developer</p>
