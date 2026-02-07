@@ -10,7 +10,7 @@ export function Experience() {
       company: "Bluestock",
       role: "Full-Stack Developer",
       period: "2024 - Present",
-      description: "Working on modern web architectures and contributing to the development of scalable financial technology solutions using the MERN stack.",
+      description: "Assisted in the development of a large-scale food delivery application, focusing on building responsive user interfaces and optimizing backend order processing logic.",
       skills: ["React", "Node.js", "MongoDB", "Express"]
     },
     {
