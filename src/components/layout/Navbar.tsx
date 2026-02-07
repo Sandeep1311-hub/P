@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
@@ -21,7 +21,6 @@ export function Navbar() {
     { name: "About", href: "/#about" },
     { name: "Experience", href: "/#experience" },
     { name: "Explore", href: "/#explore" },
-    { name: "Search Engine", href: "/search" },
     { name: "Contact", href: "/#contact" },
   ];
 
@@ -43,11 +42,8 @@ export function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors ${
-                  link.name === "Search Engine" ? "text-primary flex items-center gap-1" : "text-muted-foreground hover:text-primary"
-                }`}
+                className="text-sm font-medium transition-colors text-muted-foreground hover:text-primary"
               >
-                {link.name === "Search Engine" && <Search size={14} />}
                 {link.name}
               </Link>
             ))}

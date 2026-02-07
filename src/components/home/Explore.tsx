@@ -1,4 +1,3 @@
-
 "use client";
 
 import React from "react";
@@ -68,14 +67,6 @@ export function Explore() {
       tags: ["React", "Firebase", "Node.js", "API"],
       link: "https://github.com/Sandeep1311-hub/Job-Finder-Application",
       github: "https://github.com/Sandeep1311-hub/Job-Finder-Application",
-    },
-    {
-      id: "google-search-engine",
-      title: "Google Search Engine",
-      description: "A functional search engine replica built with React and search APIs, featuring real-time suggestions and a clean, responsive search interface.",
-      tags: ["React", "Search API", "Axios", "UI/UX"],
-      link: "https://github.com/Sandeep1311-hub/Googlesearchengine",
-      github: "https://github.com/Sandeep1311-hub/Googlesearchengine",
     },
     {
       id: "food-delivery-app",
@@ -152,13 +143,15 @@ export function Explore() {
                 return (
                   <div key={project.id} className="group relative bg-card rounded-2xl overflow-hidden border transition-all duration-300 hover:shadow-2xl hover:border-primary/30">
                     <div className="relative h-64 w-full overflow-hidden">
-                      <Image
-                        src={imageData?.imageUrl || ""}
-                        alt={project.title}
-                        fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
-                        data-ai-hint={imageData?.imageHint}
-                      />
+                      {imageData?.imageUrl && (
+                        <Image
+                          src={imageData.imageUrl}
+                          alt={project.title}
+                          fill
+                          className="object-cover transition-transform duration-500 group-hover:scale-105"
+                          data-ai-hint={imageData.imageHint}
+                        />
+                      )}
                       <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-6">
                         {project.link !== "#" && (
                           <Link href={project.link} target="_blank" className="p-4 bg-primary text-primary-foreground rounded-full hover:scale-110 transition-transform shadow-xl">
