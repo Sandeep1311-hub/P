@@ -7,9 +7,16 @@ import { Briefcase, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
+      company: "Bluestock",
+      role: "Full-Stack Developer",
+      period: "2024 - Present",
+      description: "Working on modern web architectures and contributing to the development of scalable financial technology solutions using the MERN stack.",
+      skills: ["React", "Node.js", "MongoDB", "Express"]
+    },
+    {
       company: "ACE, Hosur",
       role: "Software Trainee",
-      period: "2024 - Present",
+      period: "2024",
       description: "Focusing on backend development and cloud architecture. Building scalable services using Node.js and integrating cloud solutions with Azure and TypeScript.",
       skills: ["Node.js", "Azure", "TypeScript"]
     },
@@ -19,13 +26,6 @@ export function Experience() {
       period: "2022 - 2024",
       description: "Spearheaded the development of Python-based 3D visual ready projects. Focused on high-performance data processing and visualization pipelines.",
       skills: ["Python", "3D Visualization", "Data Pipelines"]
-    },
-    {
-      company: "Startup Hub",
-      role: "Full-Stack Developer Intern",
-      period: "2021 - 2022",
-      description: "Assisted in building real-time applications and job-matching platforms. Gained foundational experience in MERN stack development.",
-      skills: ["React", "Node.js", "MongoDB"]
     }
   ];
 
