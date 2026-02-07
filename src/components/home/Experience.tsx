@@ -24,8 +24,8 @@ export function Experience() {
       company: "Processdrive.co",
       role: "Developer Intern",
       period: "2024 - 2024",
-      description: "Contributed to the development of Python-based 3D visual ready projects. Focused on high-performance data processing and visualization pipelines.",
-      skills: ["Python", "3D Visualization", "Data Pipelines"]
+      description: "Built a comprehensive food delivery application and ensured the UI/UX was fully responsive for a seamless user experience across all devices.",
+      skills: ["Python", "3D Visualization", "Responsive Design"]
     }
   ];
 
