@@ -9,14 +9,14 @@ export function About() {
     <section id="about" className="py-24 bg-card/30">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
-          <div className="w-full md:w-5/12 lg:w-4/12">
-            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl border border-primary/10">
+          <div className="w-full md:w-5/12 lg:w-4/12 flex justify-center">
+            <div className="relative aspect-[3/4] w-full max-w-sm rounded-2xl overflow-hidden shadow-2xl border border-primary/10">
               <Image
                 src={profileImage?.imageUrl || ""}
-                alt="Profile photo"
+                alt="Professional headshot"
                 fill
-                className="object-cover transition-all duration-700"
-                data-ai-hint={profileImage?.imageHint}
+                className="object-cover transition-all duration-700 hover:scale-105"
+                data-ai-hint="professional headshot"
                 priority
               />
             </div>
