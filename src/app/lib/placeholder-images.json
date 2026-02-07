@@ -1,12 +1,5 @@
-
 {
   "placeholderImages": [
-    {
-      "id": "profile-photo",
-      "description": "Professional headshot for the about me section",
-      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAEAAElEQVR4nFS927ZkSY4cBgPgO07WdM...",
-      "imageHint": "professional developer"
-    },
     {
       "id": "project-1",
       "description": "Screenshot of an e-commerce platform",
