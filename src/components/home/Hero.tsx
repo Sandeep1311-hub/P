@@ -37,16 +37,20 @@ export function Hero() {
           </p>
           
           <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-14 px-8 text-base rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
-              Explore Work <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-14 px-8 text-base rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
+              <Link href="#explore">
+                Explore Work <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Link>
             </Button>
-            <Button size="lg" variant="outline" className="h-14 px-8 text-base rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
-              Contact Me
+            <Button asChild size="lg" variant="outline" className="h-14 px-8 text-base rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
+              <Link href="#contact">
+                Contact Me
+              </Link>
             </Button>
           </div>
 
           <div className="mt-16 flex items-center gap-8 animate-fade-in-up [animation-delay:800ms]">
-            <Link href="https://github.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
+            <Link href="https://github.com/Sandeep1311-hub" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
               <Github className="h-6 w-6" />
             </Link>
             <Link href="https://linkedin.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
