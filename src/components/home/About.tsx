@@ -13,7 +13,7 @@ export function About() {
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-2xl md:text-3xl lg:text-4xl max-w-4xl mx-auto font-light">
                 Software Trainee at ACE, Hosur, specializing in Node.js, Azure, and TypeScript. 
-                Previously a Developer at Processdrive.co where I built Python 3D visual ready projects. 
+                Previously a Developer Intern at Processdrive.co where I built Python 3D visual ready projects. 
                 Focused on end-to-end development, scalable architectures, and efficient, clean code solutions.
               </p>
             </div>
