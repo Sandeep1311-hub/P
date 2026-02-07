@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -32,9 +31,9 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s talk.</h2>
-            <p className="text-muted-foreground mb-12 max-w-md">
-              Have a project in mind or just want to say hi? Feel free to reach out. 
-              I&apos;m always open to discussing new opportunities and creative ideas.
+            <p className="text-muted-foreground mb-12 max-w-md text-lg leading-relaxed">
+              Want to hire me? Or just want to say hi? Feel free to reach out. 
+              I am always open to discussing new opportunities and creative ideas.
             </p>
 
             <div className="space-y-8">
