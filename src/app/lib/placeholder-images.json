@@ -20,12 +20,6 @@
       "imageHint": "job search"
     },
     {
-      "id": "google-search-engine",
-      "description": "Visual of a modern minimalist search interface",
-      "imageUrl": "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?auto=format&fit=crop&q=80&w=1080",
-      "imageHint": "modern interface"
-    },
-    {
       "id": "food-delivery-app",
       "description": "Mobile view of a food delivery application",
       "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=1080",
