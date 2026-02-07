@@ -7,11 +7,11 @@ import { Briefcase, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      company: "Tech Solutions Inc.",
-      role: "Senior Full-Stack Developer",
-      period: "2021 - Present",
-      description: "Leading the development of a high-traffic e-commerce platform using Next.js and AWS. Optimized performance by 40% and mentored junior developers.",
-      skills: ["Next.js", "AWS", "TypeScript"]
+      company: "ACE, Hosur",
+      role: "Software Trainee",
+      period: "2024 - Present",
+      description: "Gaining hands-on experience in backend development and cloud architecture. Focused on building scalable services using Node.js and integrating cloud solutions with Azure.",
+      skills: ["Node.js", "Azure", "TypeScript"]
     },
     {
       company: "Creative Digital Agency",

@@ -20,40 +20,40 @@ export function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
             </span>
-            Available for freelance work
+            Available for new opportunities
           </div>
           
           <h2 className="text-muted-foreground font-mono text-sm tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
-            Full-Stack Developer
+            Software Trainee
           </h2>
           
-          <h1 className="text-5xl md:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
-            Designing digital <br />
-            <span className="text-gradient">experiences that matter.</span>
+          <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
+            Building scalable <br />
+            <span className="text-gradient">software solutions.</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
-            I'm a Full Stack Developer & Designer crafting high-performance, beautiful web applications with modern technologies. 4+ years crafting production apps with React, React Native, Three.js, Node.js and AWS. I ship clean, scalable, and maintainable products end‑to‑end.
+          <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
+            I'm a Software Trainee & Developer at ACE, Hosur, specializing in backend systems and cloud integrations. I build efficient web applications using Node.js, Azure, and TypeScript.
           </p>
           
           <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-16 px-10 text-lg rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
-              Explore Work <ArrowRight className="ml-2 h-6 w-6 transition-transform group-hover:translate-x-1" />
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-14 px-8 text-base rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
+              Explore Work <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="h-16 px-10 text-lg rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
+            <Button size="lg" variant="outline" className="h-14 px-8 text-base rounded-full border-primary/20 hover:border-primary/50 font-semibold uppercase tracking-wider">
               Contact Me
             </Button>
           </div>
 
           <div className="mt-16 flex items-center gap-8 animate-fade-in-up [animation-delay:800ms]">
             <Link href="https://github.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Github className="h-8 w-8" />
+              <Github className="h-6 w-6" />
             </Link>
             <Link href="https://linkedin.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Linkedin className="h-8 w-8" />
+              <Linkedin className="h-6 w-6" />
             </Link>
             <Link href="https://twitter.com" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
-              <Twitter className="h-8 w-8" />
+              <Twitter className="h-6 w-6" />
             </Link>
           </div>
         </div>

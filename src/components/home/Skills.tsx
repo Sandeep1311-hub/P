@@ -4,29 +4,29 @@ import { Code2, Palette, Globe, Terminal } from "lucide-react";
 
 export function Skills() {
   const technicalSkills = [
-    { name: "React / Next.js", level: 95 },
-    { name: "TypeScript", level: 90 },
-    { name: "Node.js / Express", level: 85 },
-    { name: "Tailwind CSS", level: 95 },
-    { name: "PostgreSQL / MongoDB", level: 80 },
-    { name: "AWS / Google Cloud", level: 75 },
+    { name: "Node.js", level: 85 },
+    { name: "Azure", level: 80 },
+    { name: "TypeScript", level: 85 },
+    { name: "React / Next.js", level: 75 },
+    { name: "Tailwind CSS", level: 90 },
+    { name: "PostgreSQL / MongoDB", level: 70 },
   ];
 
   const categories = [
     {
-      title: "Frontend Development",
-      icon: <Globe className="h-6 w-6 text-primary" />,
-      description: "Building responsive, accessible, and performant user interfaces.",
-    },
-    {
       title: "Backend Development",
       icon: <Terminal className="h-6 w-6 text-primary" />,
-      description: "Designing scalable APIs and robust database architectures.",
+      description: "Designing scalable APIs and robust server-side architectures.",
     },
     {
-      title: "UI/UX Design",
+      title: "Cloud Services",
+      icon: <Globe className="h-6 w-6 text-primary" />,
+      description: "Deploying and managing applications on Azure cloud platform.",
+    },
+    {
+      title: "Frontend Development",
       icon: <Palette className="h-6 w-6 text-primary" />,
-      description: "Creating intuitive user flows and beautiful visual designs.",
+      description: "Building modern, responsive user interfaces with React.",
     },
     {
       title: "Clean Code",
