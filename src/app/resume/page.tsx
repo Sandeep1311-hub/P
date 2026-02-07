@@ -111,13 +111,49 @@ export default function ResumePage() {
           </div>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold border-b-2 border-black mb-3 uppercase tracking-tight">Projects</h2>
-          <div>
-            <h3 className="font-bold text-base">AI Research Agent</h3>
-            <p className="text-[14px] mb-1">Automated research assistant leveraging LLMs to aggregate, analyze, and synthesize information from multiple sources.</p>
-            <p className="text-[13px] italic">TypeScript, Node.js, AI Agents, LLMs</p>
+        <section className="mb-8">
+          <h2 className="text-lg font-bold border-b-2 border-black mb-4 uppercase tracking-tight">Projects</h2>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-bold text-base">AI Research Agent</h3>
+              <p className="text-[14px] mb-1 text-justify">Automated research assistant leveraging LLMs to aggregate, analyze, and synthesize information from multiple sources.</p>
+              <p className="text-[13px] italic">TypeScript, Node.js, AI Agents, LLMs</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-base">Job Finder Application</h3>
+              <p className="text-[14px] mb-1 text-justify">Full-stack job search platform with real-time listings, advanced filtering, and mobile-responsive UI.</p>
+              <p className="text-[13px] italic">React.js, Node.js, Firebase</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-base">Modern Web Application</h3>
+              <p className="text-[14px] mb-1 text-justify">High-performance web application deployed on Netlify with modern UI patterns.</p>
+              <p className="text-[13px] italic">React.js, Vite</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-base">Food Delivery Platform</h3>
+              <p className="text-[14px] mb-1 text-justify">End-to-end food delivery system focused on responsiveness and usability.</p>
+              <p className="text-[13px] italic">React.js, Tailwind CSS</p>
+            </div>
+            <div>
+              <h3 className="font-bold text-base">3D Visualization Toolkit</h3>
+              <p className="text-[14px] mb-1 text-justify">Python-based toolkit for high-fidelity 3D data visualization.</p>
+              <p className="text-[13px] italic">Python, Plotly</p>
+            </div>
           </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-lg font-bold border-b-2 border-black mb-4 uppercase tracking-tight">Achievements</h2>
+          <ul className="list-disc ml-5 text-[14px] space-y-1">
+            <li>Made <strong>1300+ Git commits</strong> across <strong>20+ projects</strong>.</li>
+            <li>Built internal admin panels reducing data entry errors by <strong>15%</strong>.</li>
+            <li>Solved <strong>100+ DSA problems</strong> as part of <strong>NxtWave Disruptive Technologies</strong>.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-bold border-b-2 border-black mb-3 uppercase tracking-tight">Availability</h2>
+          <p className="text-[14px]">Open to full-time opportunities in Full-Stack, Frontend, or Backend development roles.</p>
         </section>
       </div>
     </div>
