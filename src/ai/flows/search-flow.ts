@@ -25,6 +25,8 @@ const SearchOutputSchema = z.object({
 export type SearchOutput = z.infer<typeof SearchOutputSchema>;
 
 export async function searchFlow(input: SearchInput): Promise<SearchOutput> {
+  // This flow uses the Genkit AI instance which is configured with your API key.
+  // It simulates a professional search engine response.
   const { output } = await ai.generate({
     model: 'googleai/gemini-2.5-flash',
     input: { schema: SearchInputSchema, data: input },
@@ -37,7 +39,11 @@ export async function searchFlow(input: SearchInput): Promise<SearchOutput> {
     prompt: `Search query: {{{query}}}`,
   });
 
-  return output!;
+  if (!output) {
+    throw new Error("Search engine failed to generate results. Check your API key configuration.");
+  }
+
+  return output;
 }
 
 export async function performSearch(query: string): Promise<SearchOutput> {
