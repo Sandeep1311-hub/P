@@ -1,3 +1,4 @@
+
 "use client";
 
 import React from "react";
@@ -112,8 +113,8 @@ export function Explore() {
             </TabsTrigger>
           </TabsList>
 
-          <TabsContent value="skills" className="mt-0 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
+          <TabsContent value="skills" className="mt-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {skillCategories.map((category) => (
                 <div key={category.title} className="p-8 rounded-2xl bg-card border border-border/50 hover:border-primary/30 transition-all group">
                   <div className="flex items-center gap-3 mb-6">
@@ -136,8 +137,8 @@ export function Explore() {
             </div>
           </TabsContent>
 
-          <TabsContent value="projects" className="mt-0 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">
+          <TabsContent value="projects" className="mt-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
               {projects.map((project) => {
                 const imageData = PlaceHolderImages.find(img => img.id === project.id);
                 return (
@@ -174,7 +175,7 @@ export function Explore() {
                         ))}
                       </div>
                       <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
-                      <p className="text-muted-foreground text-base leading-relaxed">
+                      <p className="text-muted-foreground text-sm leading-relaxed">
                         {project.description}
                       </p>
                     </div>

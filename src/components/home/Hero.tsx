@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-background">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 -left-12 w-[25rem] h-[25rem] bg-primary/10 rounded-full blur-[128px]" />
         <div className="absolute bottom-1/4 -right-12 w-[25rem] h-[25rem] bg-primary/5 rounded-full blur-[128px]" />
@@ -15,7 +15,7 @@ export function Hero() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-10">
         <div className="max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs uppercase tracking-wider font-semibold mb-8 animate-fade-in-up">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/20 bg-primary/5 text-primary text-xs uppercase tracking-wider font-semibold mb-8">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
@@ -23,20 +23,20 @@ export function Hero() {
             Available for new opportunities
           </div>
           
-          <h2 className="text-muted-foreground font-mono text-base tracking-[0.2em] uppercase mb-4 animate-fade-in-up [animation-delay:100ms]">
+          <h2 className="text-muted-foreground font-mono text-base tracking-[0.2em] uppercase mb-4">
             Full‑Stack Developer
           </h2>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-8 animate-fade-in-up [animation-delay:200ms] tracking-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-8 tracking-tight">
             Building fast, delightful <br />
             <span className="text-gradient">web, mobile & 3D experiences.</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl animate-fade-in-up [animation-delay:400ms] leading-relaxed font-light">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl leading-relaxed font-light">
             2+ years crafting production apps with React, React Native, Three.js, Node.js and Azure. I ship clean, scalable, and maintainable products end‑to‑end.
           </p>
           
-          <div className="flex flex-wrap gap-6 animate-fade-in-up [animation-delay:600ms]">
+          <div className="flex flex-wrap gap-6">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground h-14 px-8 text-base rounded-full shadow-lg shadow-primary/25 group font-semibold uppercase tracking-wider">
               <Link href="#explore">
                 Explore Work <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
@@ -49,7 +49,7 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="mt-16 flex items-center gap-8 animate-fade-in-up [animation-delay:800ms]">
+          <div className="mt-16 flex items-center gap-8">
             <Link href="https://github.com/Sandeep1311-hub" target="_blank" className="text-muted-foreground hover:text-primary transition-all hover:scale-110">
               <Github className="h-6 w-6" />
             </Link>

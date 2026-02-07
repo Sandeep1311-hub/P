@@ -18,7 +18,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 
 const ResumeContent = () => (
-  <div className="space-y-8 py-4">
+  <div className="space-y-8 py-4 text-foreground">
     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
       <div>
         <h2 className="text-3xl font-bold tracking-tight">Sandeep R</h2>
@@ -114,7 +114,7 @@ export function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b" : "bg-transparent"
+        isScrolled ? "bg-background/90 backdrop-blur-md border-b" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -123,7 +123,6 @@ export function Navbar() {
             Sandeep <span className="text-primary">R</span>
           </Link>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">
             {navLinks.map((link) => (
               <Link
@@ -169,7 +168,6 @@ export function Navbar() {
             </Dialog>
           </div>
 
-          {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -181,9 +179,8 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-background border-b animate-in slide-in-from-top duration-300">
+        <div className="md:hidden bg-background border-b">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <Link

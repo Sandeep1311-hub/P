@@ -15,7 +15,6 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Simulate API call
     setTimeout(() => {
       setLoading(false);
       toast({
@@ -31,7 +30,7 @@ export function Contact() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Let&apos;s talk.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Let's talk.</h2>
             <p className="text-muted-foreground mb-12 max-w-md text-lg leading-relaxed">
               Want to hire me? Or just want to say hi? Feel free to reach out. 
               I am always open to discussing new opportunities and creative ideas.
