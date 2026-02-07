@@ -10,12 +10,12 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
           <div className="w-full md:w-5/12 lg:w-4/12">
-            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-primary/10">
+            <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl border border-primary/10">
               <Image
                 src={profileImage?.imageUrl || ""}
                 alt="Profile photo"
                 fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="object-cover transition-all duration-700"
                 data-ai-hint={profileImage?.imageHint}
                 priority
               />

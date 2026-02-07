@@ -3,32 +3,32 @@
   "placeholderImages": [
     {
       "id": "profile-photo",
-      "description": "Professional headshot of a developer",
-      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBoZWFkd2hvdHxlbnwwfHx8fDE3NzAzMDQ3MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional man headshot"
+      "description": "Professional headshot of a developer in a suit",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBpbiUyMHN1aXR8ZW58MHx8fHwxNzczMDU2NDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man suit headshot"
     },
     {
       "id": "project-1",
       "description": "Screenshot of an e-commerce platform",
-      "imageUrl": "https://picsum.photos/seed/noir-project-1/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc3MDQzMDEwMXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "ecommerce website"
     },
     {
       "id": "project-2",
       "description": "Screenshot of a dashboard interface",
-      "imageUrl": "https://picsum.photos/seed/noir-project-2/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1729216205873-a69b634994e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzYWFzJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc3MDM4MDMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "saas dashboard"
     },
     {
       "id": "project-3",
       "description": "Screenshot of a mobile app design",
-      "imageUrl": "https://picsum.photos/seed/noir-project-3/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHBsaWNhdGlvbnxlbnwwfHx8fDE3NzAzMjcwNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mobile application"
     },
     {
       "id": "project-4",
       "description": "Screenshot of a creative agency portfolio",
-      "imageUrl": "https://picsum.photos/seed/noir-project-4/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1742540531234-146d41a8833b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhZ2VuY3klMjBwb3J0Zm9saW98ZW58MHx8fHwxNzcwNDA2NDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "agency portfolio"
     }
   ]
