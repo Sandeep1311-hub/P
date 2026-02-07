@@ -11,7 +11,7 @@ export function About() {
     <section id="about" className="py-20 bg-card/30 border-y border-border/50">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border grayscale hover:grayscale-0 transition-all duration-700 max-w-sm mx-auto md:mx-0">
+          <div className="relative aspect-square overflow-hidden rounded-2xl border grayscale hover:grayscale-0 transition-all duration-700 max-w-sm mx-auto md:mx-0">
              {profileImage && (
                <Image
                  src={profileImage.imageUrl}

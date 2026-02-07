@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "Professional headshot for the about me section",
-      "imageUrl": "https://images.unsplash.com/photo-1519085115858-aae5a99dd364?q=80&w=600&h=800&fit=crop",
+      "imageUrl": "/profile/portfolio_profile_square.png",
       "imageHint": "professional developer"
     },
     {
