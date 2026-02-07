@@ -3,9 +3,9 @@
   "placeholderImages": [
     {
       "id": "profile-photo",
-      "description": "Professional headshot for the about me section",
-      "imageUrl": "https://picsum.photos/seed/noir-profile/600/600",
-      "imageHint": "professional headshot"
+      "description": "Professional headshot of a young man in a blue suit",
+      "imageUrl": "https://picsum.photos/seed/professional-dev/600/800",
+      "imageHint": "professional man suit"
     },
     {
       "id": "project-1",
