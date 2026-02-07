@@ -2,28 +2,25 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export function Experience() {
   const experiences = [
     {
       company: "ACE, Hosur",
       role: "Software Trainee",
-      period: "Current",
       description: "Focusing on backend development and cloud architecture. Building scalable services using Node.js and integrating cloud solutions with Azure and TypeScript.",
       skills: ["Node.js", "Azure", "TypeScript"]
     },
     {
       company: "Bluestock",
       role: "Full-Stack Developer",
-      period: "Recent",
       description: "Implemented CI/CD pipelines and developed internal React Native/web applications with various third-party integrations.",
       skills: ["React Native", "CI/CD", "Node.js", "Web Apps"]
     },
     {
       company: "Processdrive.co",
       role: "Developer Intern",
-      period: "Previous",
       description: "Built a comprehensive food delivery application and ensured the UI/UX was fully responsive for a seamless user experience across all devices.",
       skills: ["JavaScript", "React", "Tailwind CSS", "Responsive Design"]
     }
@@ -48,16 +45,11 @@ export function Experience() {
               >
                 <div className="absolute left-[-5px] top-2 w-[11px] h-[11px] rounded-full bg-primary shadow-[0_0_10px_rgba(121,80,242,0.5)]" />
                 
-                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
-                  <div>
-                    <h4 className="text-xl md:text-2xl font-bold">{exp.role}</h4>
-                    <p className="text-primary font-medium flex items-center gap-2 mt-1">
-                      <Briefcase className="h-4 w-4" /> {exp.company}
-                    </p>
-                  </div>
-                  <div className="text-sm md:text-base text-muted-foreground flex items-center gap-2 bg-secondary/50 px-3 py-1 rounded-full w-fit">
-                    <Calendar className="h-4 w-4" /> {exp.period}
-                  </div>
+                <div className="mb-4">
+                  <h4 className="text-xl md:text-2xl font-bold">{exp.role}</h4>
+                  <p className="text-primary font-medium flex items-center gap-2 mt-1">
+                    <Briefcase className="h-4 w-4" /> {exp.company}
+                  </p>
                 </div>
                 
                 <p className="text-muted-foreground text-lg md:text-xl mb-6 leading-relaxed max-w-3xl">
