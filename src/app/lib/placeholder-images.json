@@ -1,12 +1,5 @@
-
 {
   "placeholderImages": [
-    {
-      "id": "profile-photo",
-      "description": "Professional headshot of a developer",
-      "imageUrl": "https://picsum.photos/seed/67/600/600",
-      "imageHint": "professional headshot"
-    },
     {
       "id": "project-1",
       "description": "Screenshot of an e-commerce platform",
