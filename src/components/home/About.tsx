@@ -11,10 +11,7 @@ export function About() {
             </h2>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto font-light">
-                Software Trainee at ACE, Hosur, specializing in Node.js, Azure, and TypeScript. 
-                Deeply involved in building LLM-powered solutions and Neural Network architectures.
-                Experienced in internal React Native/web apps and CI/CD pipelines at Bluestock. 
-                Previously a Developer Intern at Processdrive.co where I built a fully responsive food delivery application.
+                I&apos;m Sandeep R, a full‑stack developer specializing in React.js, React Native, Three.js, Node.js/Express, and AWS. I deliver end‑to‑end solutions—from UX and architecture to deployments on App Store and Play Store—across education, food delivery, sports and VR.
               </p>
             </div>
           </div>
