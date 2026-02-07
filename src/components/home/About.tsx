@@ -1,4 +1,3 @@
-
 "use client";
 
 export function About() {
@@ -11,7 +10,7 @@ export function About() {
               About Me
             </h2>
             <div className="space-y-6">
-              <p className="text-muted-foreground leading-relaxed text-2xl md:text-3xl lg:text-4xl max-w-4xl mx-auto font-light">
+              <p className="text-muted-foreground leading-relaxed text-lg md:text-xl max-w-3xl mx-auto font-light">
                 Software Trainee at ACE, Hosur, specializing in Node.js, Azure, and TypeScript. 
                 Deeply involved in building LLM-powered solutions and Neural Network architectures.
                 Experienced in internal React Native/web apps and CI/CD pipelines at Bluestock. 
