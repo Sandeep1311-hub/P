@@ -3,7 +3,7 @@
     {
       "id": "profile-photo",
       "description": "Professional headshot for the about me section",
-      "imageUrl": "/profile/portfolio_profile_square.png",
+      "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAEAAElEQVR4nFS927ZkSY4cBgPgO07WdM...",
       "imageHint": "professional developer"
     },
     {
