@@ -2,38 +2,38 @@
 "use client";
 
 import { Progress } from "@/components/ui/progress";
-import { Code2, Palette, Globe, Terminal } from "lucide-react";
+import { Code2, Palette, Globe, Terminal, BrainCircuit } from "lucide-react";
 
 export function Skills() {
   const technicalSkills = [
     { name: "Node.js", level: 90 },
     { name: "Azure", level: 85 },
     { name: "TypeScript", level: 90 },
+    { name: "LLMs / Neural Networks", level: 85 },
     { name: "Python", level: 80 },
     { name: "React / Next.js", level: 85 },
-    { name: "Tailwind CSS", level: 95 },
   ];
 
   const categories = [
     {
+      title: "AI & Neural Networks",
+      icon: <BrainCircuit className="h-6 w-6 text-primary" />,
+      description: "Architecting Neural Network models and implementing LLM-based solutions for complex problems.",
+    },
+    {
       title: "Backend Development",
       icon: <Terminal className="h-6 w-6 text-primary" />,
-      description: "Designing scalable APIs and robust server-side architectures using Node.js.",
+      description: "Designing scalable APIs and robust server-side architectures using Node.js and TypeScript.",
     },
     {
-      title: "Cloud & Azure",
+      title: "Cloud & Infrastructure",
       icon: <Globe className="h-6 w-6 text-primary" />,
-      description: "Managing cloud infrastructure and integrations on the Azure platform.",
+      description: "Managing cloud infrastructure and complex CI/CD pipelines on the Azure platform.",
     },
     {
-      title: "3D Visual Pipelines",
-      icon: <Palette className="h-6 w-6 text-primary" />,
-      description: "Building Python-based 3D visualization and high-performance processing systems.",
-    },
-    {
-      title: "Clean Code Architecture",
+      title: "Full-Stack Ecosystem",
       icon: <Code2 className="h-6 w-6 text-primary" />,
-      description: "Developing maintainable, well-documented, and testable codebases.",
+      description: "Developing cross-platform applications with React Native and responsive web interfaces.",
     },
   ];
 
@@ -43,7 +43,7 @@ export function Skills() {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">My Skills</h2>
           <p className="text-lg text-muted-foreground">
-            Combining deep technical knowledge in backend systems with creative 3D visualization expertise.
+            Combining deep technical knowledge in backend systems and cloud with cutting-edge AI and neural architecture expertise.
           </p>
         </div>
 

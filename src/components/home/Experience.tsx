@@ -9,19 +9,19 @@ export function Experience() {
     {
       company: "ACE, Hosur",
       role: "Software Trainee",
-      description: "Focusing on backend development and cloud architecture. Building scalable services using Node.js and integrating cloud solutions with Azure and TypeScript.",
-      skills: ["Node.js", "Azure", "TypeScript"]
+      description: "Leading backend development and cloud architecture initiatives. Specialized in building scalable services using Node.js and integrating cloud solutions with Azure. Currently implementing advanced LLM integrations and Neural Network architectures for enterprise-grade tools.",
+      skills: ["Node.js", "Azure", "TypeScript", "LLM", "Neural Networks", "Python"]
     },
     {
       company: "Bluestock",
       role: "Full-Stack Developer",
-      description: "Implemented CI/CD pipelines and developed internal React Native/web applications with various third-party integrations.",
-      skills: ["React Native", "CI/CD", "Node.js", "Web Apps"]
+      description: "Spearheaded the implementation of CI/CD pipelines and developed internal React Native/web applications featuring complex third-party integrations for seamless platform functionality.",
+      skills: ["React Native", "CI/CD", "Node.js", "Web Apps", "Integration"]
     },
     {
       company: "Processdrive.co",
       role: "Developer Intern",
-      description: "Built a comprehensive food delivery application and ensured the UI/UX was fully responsive for a seamless user experience across all devices.",
+      description: "Successfully built a comprehensive food delivery application from the ground up, ensuring the UI/UX was fully responsive and optimized for a seamless experience across all device types.",
       skills: ["JavaScript", "React", "Tailwind CSS", "Responsive Design"]
     }
   ];
