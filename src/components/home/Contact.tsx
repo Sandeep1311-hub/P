@@ -43,7 +43,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Email</h4>
-                  <p className="text-muted-foreground">hello@noirfolio.dev</p>
+                  <p className="text-muted-foreground">sandeep135791311@gmail.com</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 000-0000</p>
+                  <p className="text-muted-foreground">+91 0000000000</p>
                 </div>
               </div>
 
@@ -63,7 +63,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold">Location</h4>
-                  <p className="text-muted-foreground">San Francisco, California</p>
+                  <p className="text-muted-foreground">Hosur, Tamil Nadu, India</p>
                 </div>
               </div>
             </div>
