@@ -65,16 +65,16 @@ export function Explore() {
       title: "Job Finder Application",
       description: "A comprehensive platform designed to streamline the job search process with real-time listings, advanced filtering, and a seamless mobile-responsive interface.",
       tags: ["React", "Firebase", "Node.js", "API"],
-      link: "#",
+      link: "https://github.com/Sandeep1311-hub/Job-Finder-Application",
       github: "https://github.com/Sandeep1311-hub/Job-Finder-Application",
     },
     {
-      id: "project-1",
-      title: "E-Commerce Titan",
-      description: "A full-featured shopping platform with real-time inventory and Stripe integration.",
-      tags: ["Next.js", "Stripe", "Prisma"],
-      link: "#",
-      github: "#",
+      id: "google-search-engine",
+      title: "Google Search Engine",
+      description: "A functional search engine replica built with React and search APIs, featuring real-time suggestions and a clean, responsive search interface.",
+      tags: ["React", "Search API", "Axios", "UI/UX"],
+      link: "https://github.com/Sandeep1311-hub/Googlesearchengine",
+      github: "https://github.com/Sandeep1311-hub/Googlesearchengine",
     },
   ];
 

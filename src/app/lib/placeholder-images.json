@@ -20,6 +20,12 @@
       "imageHint": "job search"
     },
     {
+      "id": "google-search-engine",
+      "description": "Visual of a search engine interface",
+      "imageUrl": "https://images.unsplash.com/photo-1562577353-f5da7f6f3f09?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "web search"
+    },
+    {
       "id": "project-1",
       "description": "Screenshot of an e-commerce platform",
       "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc3MDQzMDEwMXww&ixlib=rb-4.1.0&q=80&w=1080",
